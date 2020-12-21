@@ -3,6 +3,7 @@ package com.example.gittest;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void Test(){
-
+        Log.d("main","Hello from iran");
     }
 }
